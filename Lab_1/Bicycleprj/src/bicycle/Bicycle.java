@@ -1,10 +1,10 @@
-package BicycleP;
+package bicycle;
 public class Bicycle {
 
     //fields
-    int speed = 100;
-    int noOfGears = 5;
-    int cadence = 40;
+    public int speed = 100;
+    public int noOfGears = 5;
+    public int cadence = 40;
 
     private static int var=10;
 
@@ -18,8 +18,5 @@ public class Bicycle {
     }
     public void printState() {
         System.out.println("Bicycle [cadence=" + cadence + ", noOfGears=" + noOfGears + ", speed=" + speed + "]");
-    }
-    public static void main(String[] args){
-
     }
 }
