@@ -7,8 +7,9 @@ public class test2 {
 		System.out.println(method1());
 	}
 	public static int method1() {
-		final int x = 3;
-		int r = y+x;
-		return r;
+		int x = 3;     //final need not be written in this case ; there is no concept of static state in stack
+		int z = y+x;
+		System.out.println(x++);   //prints x and then increments
+		return ++x; // increments and then returns
 	}
 }

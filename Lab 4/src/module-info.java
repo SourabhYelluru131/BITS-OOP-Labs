@@ -1,0 +1,3 @@
+module softwaretest {
+	requires junit;
+}
