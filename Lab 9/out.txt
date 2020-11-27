@@ -1,0 +1,2 @@
+No of heads = 0
+No of tails = 0

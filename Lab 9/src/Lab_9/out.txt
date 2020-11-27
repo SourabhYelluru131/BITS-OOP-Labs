@@ -1,0 +1,2 @@
+No of heads = 3
+No of tails = 7
